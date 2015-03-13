@@ -29,7 +29,7 @@ var resize = module.exports = {
     }
   },
   removeAllListeners: function() {
-    this.off('resize');
+    this.off();
   }
 };
 
