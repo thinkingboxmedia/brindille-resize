@@ -1,5 +1,5 @@
 # brindille-resize
-Resize utils
+Resize handler that uses debounce.
 
 ## Install
 
@@ -15,6 +15,8 @@ $ npm install brindille-resize --save
 var resize = require('brindille-resize');
 // add listener
 resize.addListener(handler);
+// add listener without debounce
+resize.addListener(noDebounceHandler, true);
 // remove listener
 resize.removeListener(handler);
 // get properties
