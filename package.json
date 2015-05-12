@@ -1,6 +1,6 @@
 {
   "name": "brindille-resize",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Resize utils",
   "main": "index.js",
   "scripts": {
