@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/brindille/brindille-resize.svg?branch=master)](https://travis-ci.org/brindille/brindille-resize)
+
 # brindille-resize
 Resize handler that uses debounce.
 
