@@ -4,7 +4,8 @@
   "description": "Resize utils",
   "main": "index.js",
   "scripts": {
-    "start": "budo demo/demo.js | garnish"
+    "start": "budo demo/demo.js | garnish",
+    "test": "mochify --cover"
   },
   "repository": {
     "type": "git",
@@ -31,9 +32,11 @@
     "component-emitter": "^1.2.0"
   },
   "devDependencies": {
+    "budo": "^1.2.2",
+    "chai": "^2.3.0",
     "domready": "^1.0.7",
     "garnish": "^2.1.0",
-    "budo": "^1.2.2",
+    "mochify": "^2.8.1",
     "watchify": "^2.4.0"
   }
 }
