@@ -46,6 +46,8 @@ resize.removeListener = function(listener) {
 resize.debounceResize = debounce(resize.applyResizeDebounce.bind(resize), resize.debounceDelay);
 
 // first call to init values
-resize.onGlobalResize();
+resize.init = function() {
+  resize.onGlobalResize();
 
-window.addEventListener('resize', resize.onGlobalResize.bind(resize));
+  window.addEventListener('resize', resize.onGlobalResize.bind(resize));
+};
